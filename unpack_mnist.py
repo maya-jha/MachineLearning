@@ -15,4 +15,6 @@ imsave('mnist_batch_'+`20`+'.png', x[60000:,:]) # test set
 # dump the labels
 L = 'var labels=' + `list(numpy.concatenate((train_set[1],valid_set[1],test_set[1])))` + ';\n'
 open('mnist_labels.js', 'w').write(L)
-
+x=10
+y=15
+z=x+y
